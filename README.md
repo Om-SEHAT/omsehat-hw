@@ -52,14 +52,10 @@ A compact hardware device for wirelessly reading body temperature and heart rate
 
 ## 🚀 How It Works
 
-1. Power on the device.
-2. Connect to the OmSehat app in `/front_counter/config`
-3. Send a command like:
-
-   - `start mlx` → get temperature
-   - `start pulse` → get heart rate
-
-4. Data is sent back via MQTT.
+1. Power on the device
+2. Connect to the OmSehat app
+3. Send a command via MQTT
+4. Data is sent back via MQTT
 
 ## 📎 Links
 
